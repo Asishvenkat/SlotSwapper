@@ -1,0 +1,21 @@
+# SlotSwapper Project
+
+This directory contains the complete SlotSwapper application.
+
+## Quick Start
+
+### Using Docker (Recommended)
+```bash
+docker-compose up --build
+```
+
+### Manual Setup
+See the main README.md for detailed instructions.
+
+## Project Structure
+- `/backend` - Node.js/Express/TypeScript API
+- `/frontend` - React/TypeScript/Vite application
+- `docker-compose.yml` - Docker orchestration
+
+## Documentation
+See README.md for comprehensive documentation.
