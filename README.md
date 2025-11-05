@@ -5,7 +5,7 @@
 
 SlotSwapper is a full-stack application that enables users to swap calendar time slots with each other. Users can mark their busy slots as "swappable" and request to exchange them with other users' available slots.
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project was developed as a technical challenge to demonstrate proficiency in:
 - Full-stack development with React (TypeScript) and Node.js (Express)
@@ -15,7 +15,7 @@ This project was developed as a technical challenge to demonstrate proficiency i
 - Authentication and authorization
 - Testing and containerization
 
-## ✨ Features
+##  Features
 
 ### Core Features
 - ✅ **User Authentication**: JWT-based signup and login
@@ -32,7 +32,7 @@ This project was developed as a technical challenge to demonstrate proficiency i
 - ✅ **TypeScript**: Both frontend and backend use TypeScript for type safety
 - ✅ **Modern UI**: Responsive design with Tailwind CSS
 
-## 🏗️ Architecture & Design Decisions
+##  Architecture & Design Decisions
 
 ### Backend Architecture
 - **Framework**: Express.js with TypeScript
@@ -181,9 +181,9 @@ docker-compose down
 docker-compose down -v
 ```
 
-## 📋 API Endpoints
+##  API Endpoints
 
-> **📌 Note**: A complete Postman collection with all endpoints is available in [`POSTMAN_COLLECTION.md`](./POSTMAN_COLLECTION.md)
+> ** Note**: A complete Postman collection with all endpoints is available in [`POSTMAN_COLLECTION.md`](./POSTMAN_COLLECTION.md)
 
 ### Authentication
 | Method | Endpoint | Description | Auth Required |
@@ -285,7 +285,7 @@ The test suite includes:
 - Transaction rollback scenarios
 - Validation and error handling
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 SlotSwapper/
@@ -348,7 +348,7 @@ SlotSwapper/
 └── README.md
 ```
 
-## 🔐 Environment Variables
+##  Environment Variables
 
 ### Backend (.env)
 ```env
@@ -386,7 +386,7 @@ VITE_SOCKET_URL=http://localhost:5000
 2. Update `MONGODB_URI` with Atlas connection string
 3. Whitelist your deployment IP addresses
 
-## 🎮 Usage Flow
+##  Usage Flow
 
 1. **Sign Up/Login**: Create an account or login
 2. **Create Events**: Add your calendar slots via Dashboard
@@ -397,7 +397,7 @@ VITE_SOCKET_URL=http://localhost:5000
 7. **Accept/Reject**: Review incoming requests and decide
 8. **Automatic Swap**: Upon acceptance, slots are automatically exchanged
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 ### Backend
 - Node.js
@@ -426,7 +426,7 @@ VITE_SOCKET_URL=http://localhost:5000
 - Docker Compose
 - Git
 
-## 🐛 Known Issues & Future Improvements
+##  Known Issues & Future Improvements
 
 ### Current Limitations
 - No email verification for signup
@@ -444,7 +444,7 @@ VITE_SOCKET_URL=http://localhost:5000
 - Chat system for swap negotiations
 - Mobile app (React Native)
 
-## 📝 Assumptions Made
+##  Assumptions Made
 
 1. **Time Slots**: Assumed that events/slots can overlap for the same user (no conflict checking implemented).
 
@@ -462,7 +462,7 @@ VITE_SOCKET_URL=http://localhost:5000
 
 8. **Network**: Assumed reliable network connection for WebSocket real-time features.
 
-## 🧩 Challenges Faced
+##  Challenges Faced
 
 1. **Atomic Swap Transactions**: Ensuring both slots are updated together required careful use of MongoDB transactions and proper error handling.
 
@@ -474,15 +474,15 @@ VITE_SOCKET_URL=http://localhost:5000
 
 5. **Docker Multi-stage Builds**: Optimizing Dockerfile for production required understanding multi-stage builds to keep final images small.
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License.
 
-## 👨‍💻 Author
+##  Author
 
 Created as a technical challenge for ServiceHive Full Stack Intern position.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - ServiceHive team for the interesting challenge
 - Open-source community for amazing tools and libraries
