@@ -14,7 +14,13 @@ This project was developed as a technical challenge to demonstrate proficiency i
 - RESTful API design
 - Authentication and authorization
 - Testing and containerization
+- 
+##  Live Deployment
 
+The application is deployed and accessible at:
+- **Frontend:** [https://slot-swapper-drab.vercel.app](https://slot-swapper-drab.vercel.app)
+- **Backend API:** [https://slotswapper-azhm.onrender.com](https://slotswapper-azhm.onrender.com)
+- **API Health Check:** [https://slotswapper-azhm.onrender.com/api/health](https://slotswapper-azhm.onrender.com/api/health)
 ##  Features
 
 ### Core Features
