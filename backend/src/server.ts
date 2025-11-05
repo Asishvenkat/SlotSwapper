@@ -15,9 +15,14 @@ dotenv.config();
 
 const app: Application = express();
 const httpServer = createServer(app);
+const allowedOrigins = [
+  'http://localhost:3000',
+  'https://slot-swapper-drab.vercel.app'
+];
+
 const io = new Server(httpServer, {
   cors: {
-    origin: process.env.FRONTEND_URL || 'http://localhost:3000',
+    origin: allowedOrigins,
     credentials: true,
   },
 });
@@ -30,7 +35,7 @@ initializeSocketIO(io);
 
 // Middleware
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:3000',
+  origin: allowedOrigins,
   credentials: true,
 }));
 app.use(express.json());
