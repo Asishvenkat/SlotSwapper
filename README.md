@@ -269,7 +269,7 @@ Headers: { "Authorization": "Bearer <token>" }
 }
 ```
 
-## 🧪 Testing
+##  Testing
 
 ### Running Backend Tests
 ```bash
