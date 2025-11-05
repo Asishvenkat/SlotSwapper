@@ -108,7 +108,7 @@ This project was developed as a technical challenge to demonstrate proficiency i
    - Server-side validation for all operations
    - Ownership checks before any modifications
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js (v18 or higher)
